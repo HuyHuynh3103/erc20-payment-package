@@ -1,0 +1,19 @@
+enum PAIR_TOKEN {
+    ETH_USD= "ETH/USD",
+    BTC_USD= "BTC/USD",
+    MATIC_USD="MATIC/USD",
+    AVAX_USD="AVAX/USD",
+    BNB_USD="BNB/USD",
+    LINK_USD="LINK/USD",
+    USDT_USD="USDT/USD",
+    DAI_USD="DAI/USD",
+    USDC_USD="USDC/USD",
+    DAI_ETH="DAI/ETH",
+    LINK_ETH="LINK/ETH",
+    USDT_ETH="USDT/ETH",
+    BUSD_BNB="BUSD/BNB",
+    BUSD_ETH="BUSD/ETH"
+}
+export {
+    PAIR_TOKEN
+}

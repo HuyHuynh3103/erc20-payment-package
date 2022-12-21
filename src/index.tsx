@@ -1,5 +1,4 @@
-import React from 'react'
-
-export const MyComponent = () => {
-  return <div>Hello word</div>
+import { usePayment } from "./hooks";
+export {
+    usePayment,
 }

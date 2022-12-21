@@ -1,6 +1,6 @@
 {
   "name": "erc20-payment",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package supports as many as erc20 tokens for payment",
   "repository": "git@github.com:HuynhBaHuy/erc20-payment-package.git",
   "author": "Huynh Ba Huy <19127420@student.hcmus.edu.vn>",
@@ -9,7 +9,7 @@
   "main": "dist/index.js",
   "files": [
     "dist"
-  ], 
+  ],
   "scripts": {
     "build": "node esbuild.js && tsc"
   },
@@ -24,5 +24,8 @@
   },
   "peerDependencies": {
     "react": ">=16"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2"
   }
 }
