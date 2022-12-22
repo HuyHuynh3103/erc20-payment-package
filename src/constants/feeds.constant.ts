@@ -1,8 +1,8 @@
 import { ChainSlug, ChainType, PAIR_TOKEN } from "../enums"
 import { getNetworkBySlug } from "../helpers"
-import { IPair } from "../interfaces"
+import { IFeed } from "../interfaces"
 import networks from "./networks.constant"
-const pairs: IPair[] = [
+const feeds: IFeed[] = [
     {
         network: getNetworkBySlug(networks, ChainSlug.ETHEREUM),
         pairName: PAIR_TOKEN.ETH_USD,
@@ -49,4 +49,4 @@ const pairs: IPair[] = [
         address: "0xb97ad0e74fa7d920791e90258a6e2085088b4320"
     }
 ]
-export default pairs
+export default feeds

@@ -4,7 +4,8 @@ interface INetworkType {
     chainId: number,
     name: string,
     chainSlug: ChainSlug,
-    networkSlug: ChainType
+    networkSlug: ChainType,
+    rpc: string,
 }
 export {
     INetworkType

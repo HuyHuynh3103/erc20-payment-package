@@ -1,4 +1,4 @@
-import { usePayment } from "./hooks";
+import { useChangePrice } from "./hooks";
 export {
-    usePayment,
+    useChangePrice,
 }

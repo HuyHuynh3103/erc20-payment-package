@@ -1,4 +1,4 @@
-import usePayment from "./usePayments";
+import useChangePrice from "./useChangePrice";
 export {
-    usePayment,
+    useChangePrice,
 }
